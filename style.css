@@ -1,0 +1,53 @@
+
+
+* {
+    display: flex;
+    align-items: center;
+}
+
+
+element.style {
+}
+body {
+    background: linear-gradient(50deg, transparent, purple);
+}
+
+section#Welcome {
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+section#psw {
+    /* display: flex; */
+    flex-direction: column;
+    margin-right: 2em;
+    margin-left: 5em;
+    /* align-content: space-around; */
+}
+
+button#GO {
+    color: white;
+    background-color: #9134c1;
+    font-size: x-large;
+    padding: 0.5em 1em;
+    /* box-sizing: unset; */
+    letter-spacing: 0.08em;
+    margin-inline-start: jsdfh;
+    margin: 0.5em;
+    border: none;
+    border-radius: 2em;
+    /* box-shadow: 6px 5px 24px #666666; */
+}
+
+    input[type="password"] {
+        text-align: center;
+        border-color: none;
+        padding: 1em 5em;
+        border-color: black;
+    }
+
+    h1{
+        font-family: 'Be Vietnam', sans-serif;
+        text-align: center;
+    }
